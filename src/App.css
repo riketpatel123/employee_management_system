@@ -1,0 +1,64 @@
+.App {
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+ul {
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+    border: medium solid black;
+    margin: 20px auto 20px auto;
+
+}
+table, th, td{
+    border: 1px solid black;
+}
+th{
+    width: 120px;
+    height: 30px;
+    background-color: #F9E79F;
+}
+td{
+    text-align: center;
+    height: 40px;
+    background-color: #92B6D5;
+}
